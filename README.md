@@ -9,14 +9,14 @@ To install the required packages, run pip install -r requirements.txt.
 The repository is currently compatible with tensorflow-2.0 and makes use of the Keras API using the tensorflow.keras library.
 
 First, clone the repository and enter the folder
-git clone https://github.com/atulapra/Emotion-detection.git
+git clone https://github.com/tatchap/Emotion-detection.git
 cd Emotion-detection
 Download the FER-2013 dataset inside the src folder.
 
 If you want to train this model, use:
 
 <pre>python<br>cd src
-python emotions.py --mode train<br></pre>
+python emotions.py --mode train</br></pre>
 If you want to view the predictions without training again, you can download the pre-trained model from here and then run:
 cd src
 python emotions.py --mode display
