@@ -4,7 +4,10 @@ This project aims to classify the emotion on a person's face into one of seven c
 
 ## Dependencies
 Python 3, [OpenCV](OpenCV), [Tensorflow](Tensorflow)
-To install the required packages, run <pre>bash<br>pip install -r requirements.txt</br></pre>
+To install the required packages, run
+```bash
+pip install -r requirements.txt
+```
 ## Basic Usage
 The repository is currently compatible with tensorflow-2.0 and makes use of the Keras API using the tensorflow.keras library.
 
@@ -15,8 +18,10 @@ Download the FER-2013 dataset inside the src folder.
 
 If you want to train this model, use:
 
-<pre>python<br>cd src
-python emotions.py --mode train</br></pre>
+```
+cd src
+python emotions.py --mode train
+```
 If you want to view the predictions without training again, you can download the pre-trained model from here and then run:
 cd src
 python emotions.py --mode display
