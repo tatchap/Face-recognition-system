@@ -4,7 +4,7 @@ This project aims to classify the emotion on a person's face into one of seven c
 
 ## Dependencies
 Python 3, [OpenCV](OpenCV), [Tensorflow](Tensorflow)
-To install the required packages, run ```bash pip install -r requirements.txt.
+To install the required packages, run <pre>bash<br>pip install -r requirements.txt</br></pre>
 ## Basic Usage
 The repository is currently compatible with tensorflow-2.0 and makes use of the Keras API using the tensorflow.keras library.
 
