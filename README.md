@@ -23,15 +23,17 @@ cd src
 python emotions.py --mode train
 ```
 If you want to view the predictions without training again, you can download the pre-trained model from here and then run:
+```
 cd src
 python emotions.py --mode display
+```
 The folder structure is of the form:
 src:
 
-data (folder)
-emotions.py (file)
-haarcascade_frontalface_default.xml (file)
-model.h5 (file)
+- emotions.py (file)
+- haarcascade_frontalface_default.xml (file)
+- model.h5 (file)
+
 This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.
 
 # Accuracy plot
