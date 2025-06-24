@@ -15,8 +15,8 @@ Download the FER-2013 dataset inside the src folder.
 
 If you want to train this model, use:
 
-<pre>cd src
-python emotions.py --mode train</pre>
+<pre>python<br>cd src
+python emotions.py --mode train<br></pre>
 If you want to view the predictions without training again, you can download the pre-trained model from here and then run:
 cd src
 python emotions.py --mode display
