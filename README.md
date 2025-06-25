@@ -13,10 +13,10 @@ The repository is currently compatible with `tensorflow-2.0` and makes use of th
 
 First, clone the repository and enter the folder
 ```
-git clone https://github.com/tatchap/Emotion-detection.git
+git clone https://github.com/tatchap/emotions-detections.git
 cd Emotion-detection
 ```
-Download the FER-2013 dataset from kaggle .
+Download the FER-2013 dataset from [kaggle](https://www.kaggle.com/datasets/msambare/fer2013) .
 
 If you want to train this model, use:
 
